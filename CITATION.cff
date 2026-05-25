@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or the released checkpoint, please cite the accompanying paper."
+title: "HLFC-Net: A hierarchical latent-frequency cross-attention network for diffusion-based image manipulation detection"
+type: software
+abstract: >
+  HLFC-Net is an end-to-end deep network for pixel-level localisation of
+  diffusion-based image manipulation. It jointly exploits semantic, latent-
+  trajectory and frequency-domain features and reconciles them through
+  bidirectional cross-attention. This repository contains the model code,
+  the trained pixel-level and image-level checkpoints, and all evaluation
+  outputs reported in the paper.
+authors:
+  - Srilakshmi V
+    affiliation: "NIT Warangal"
+  - Dr. S. Ravichandra
+    affiliation: "NIT Warangal"
+license: MIT
+version: "1.0.0"
+date-released: 2026-05-25
+keywords:
+  - image forensics
+  - diffusion models
+  - image manipulation detection
+  - latent trajectory inversion
+  - cross-attention
+  - cross-dataset generalisation
+
+preferred-citation:
+  type: article
+  title: "HLFC-Net: A hierarchical latent-frequency cross-attention network for diffusion-based image manipulation detection"
+  authors:
+    - Srilakshmi V
+    - Dr. S. Ravichandra
+  journal: "<Journal>"
+  year: 2026
